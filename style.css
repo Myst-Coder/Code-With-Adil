@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(122, 100, 93);
+}
+
+.li-2{
+    display: inline;
+    margin: 1rem;
+    padding-left: 1rem;
+}
+.list-footer{
+    display: inline;
+    margin: 1rem;
+    padding-left: 5rem; 
+}
+.header{
+    background-color: rgb(34, 30, 30);
+    color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ul-2{
+    padding: 1.5rem 0 1.5rem 0;
+    text-align: right;
+    font-size: 15px;
+    margin-right: 7rem;
+}
+
+.ul-1{
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2rem;
+    word-spacing: 0.5rem;
+    background-color: rgb(64, 41, 14);
+    color: beige;
+    padding: 1rem;
+}
+
+.box{
+    text-align: center;
+    align-items: center;
+    color: antiquewhite;
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(69, 69, 164);
+    margin: 2rem;
+    margin-top: 0.25rem;
+    width: 600px;
+}
+
+.box img{
+    width: 550px;
+    padding: 1rem;
+}
+
+.box p{
+    text-align: justify;
+    font-size: 17px;
+    margin: 2rem;
+}
+.container{ 
+    align-items: center;
+    justify-content: center;
+}
+
+.box h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 30px;
+    background-color: rgb(57, 66, 52);
+    color: rgb(87, 214, 8);
+}
+
+footer{  
+    list-style-type: none;
+    background-color: black;
+    color: rgb(103, 153, 153);
+    width: 100vw;
+    height: 200px;
+}
+
+footer ul{
+    font-size: 20px;
+    margin-left: 8rem;
+}
+
+footer ul li{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+footer p{
+    padding-right: 2rem;
+    padding-bottom: 0.80rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: rgb(184, 190, 196);
+}
+
+.li{
+    font-size: 15px;
+    margin-left: 20rem;
+}
+
+.logo{
+    color: rgb(103, 153, 153);
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-right: 10rem;
+}
+
+@media (max-width: 1360px) { 
+    .ul-2 {
+        padding: 1.5rem 0 1.5rem 0;
+        text-align: right;
+        font-size: 12px;
+        margin-right: 13rem;
+        } 
+        .logo {
+            font-size: 25px;
+            margin-right: 5rem;
+        } 
+     .li-2{
+            margin: 0.5rem;
+        }
+    .box {
+            width: 50%; /* Adjust width for extra large screens */
+        }    
+}
+@media (max-width: 969px) { 
+    .ul-2 {
+        font-size: 8px;
+        margin-right: 0.5rem;
+        } 
+        .logo {
+            font-size: 15px;
+            margin-right: 1.5rem;
+        } 
+     .li-2{
+            margin: 1rem;
+        }
+
+    /* .box {
+        width: 60%; 
+    }    
+}    */
+
+/* @media (max-width: 575.98px) {
+    .box {
+        width: 90%; 
+    }
+} */
+
+
+@media (min-width: 576px) {
+    .box {
+        width: 70%; 
+    }
+}
